@@ -1,0 +1,653 @@
+/* General Styles */
+body {
+   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+   background-color: #faf9f7;
+   margin: 0;
+   padding: 0;
+  
+}
+
+html, body {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+
+}
+
+/* Header Box */
+.header-box {
+   display: flex;
+   align-items: center;
+   padding: 10px 10px 5px 10px;
+   margin-bottom: -5px;
+   justify-content: space-between;
+}
+
+/* Logo Styling */
+.logo {
+   padding: 10px;
+   margin-left: -20px;
+}
+
+.logo img {
+   width: 120px; /* Adjust this to fit your logo size */
+   height: auto;
+}
+
+
+
+/* Top Navigation */
+.top-nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   gap: 15px;
+}
+
+.top-nav ul li {
+   display: inline-block;
+}
+
+.top-nav ul li a {
+   font-family: Garamond, serif;
+   color: #000;
+   text-decoration: none;
+   font-size: 18px;
+   font-weight: bold;
+   padding: 5px 10px;
+   border: 1px solid black;
+   background-color: #b999a1;
+}
+
+.top-nav ul li a:hover {
+   background-color: #fff;
+   color: #000;
+   border: 1px solid #000;
+}
+
+
+
+/* Content Title */
+.content-title {
+   text-align: center;
+   margin-top: 0px;
+}
+
+.content-div {
+   overflow: hidden; /* Clears floats */
+   padding-bottom: 20px;
+   margin-right: 5px;
+}
+
+.top-nav ul {
+   margin-right: -10px; /* Adjust this value as needed */
+}
+
+
+
+
+/* Course Card */
+
+.content-section h2 {
+   font-size: 18px;
+   color: #000000;
+   margin-left: 5px;
+}
+
+.content-section p {
+   font-size: 16px;
+   color: #000000;
+   margin-left: 5px;
+  
+}
+
+.content-section {
+   background-color: #fff7e6;
+   color: #fff;
+   padding: 7px 0px 0px 0px;
+   font-size: 16px;
+   cursor: pointer;
+   border: 2px solid #b999a1;
+   margin-bottom: 20px;
+  
+}
+
+
+#button {
+   color: #fff;
+}
+
+
+.info-row {
+   display: flex;
+   justify-content: space-between;
+   max-width: 600px; /* Adjust width as necessary */
+   margin: 5px;
+}
+
+.info-row p {
+   margin: 0;
+   padding-right: 110px;
+}
+
+
+
+.content-section button {
+   background-color: #b999a1;
+   width: 100%;         /* Make the button full width */
+   padding: 5px;        /* Adjust padding for a better appearance */
+   border: none;         /* Remove the default border */
+   text-align:end;   /* Ensure text is centered */
+   cursor: pointer;      /* Change cursor to pointer */
+   font-size: 16px;      /* Adjust the font size if necessary */
+}
+
+.content-section button:hover {
+   background-color: #a37884;  /* Slightly darker shade on hover */
+}
+
+
+
+
+/* Main Content */
+
+#main-box {
+  
+   margin: 0px 15px;
+   margin-bottom: 10px;
+   overflow: hidden;
+}
+
+.main {
+   
+   margin: 0;
+   padding: 0px;
+   border: 2px solid black;
+   padding-bottom: 2px;
+   box-sizing: border-box;
+}
+
+.title-div {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+   border-bottom: 2px solid black;
+   
+}
+
+#title-div {
+   background-color:#fff7e6;
+}
+
+.title-content {
+   text-align: center;
+   
+   
+}
+
+.long-paragraph {
+   margin-top: 20px;
+   border-top: 2px solid #ccc;
+   padding-top: 10px;
+   margin-right: 20px;
+   
+}
+
+
+
+
+/* Navigation Boxes */
+.nav-boxes {
+   display: flex;
+   flex-direction: column;
+   background-color: #fff7e6;
+   width: 200px;
+   float: left;
+   margin-right: 20px;
+   margin-left: 10px;
+   border: 2px solid #b999a1 ;
+   border-radius: 10px;
+   box-sizing: border-box;
+}
+
+.nav-box {
+   padding: 7px;
+   background: #b999a1;
+   text-decoration: none;
+   color: #333;
+   margin: 5px;
+   text-align: left;
+   font-weight: bold;
+}
+
+.nav-box:hover {
+   background: #ddd;
+}
+
+
+
+
+/* Footer */
+.footer {
+   width: 100%;
+   background-color: black;  /* Black background */
+   color: white;             /* White text */
+   text-align: center;       /* Center the text */
+   padding: 0px;
+   margin-top: 0px;
+
+}
+
+
+#footer {
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+
+
+
+
+/* Responsive Layouts */
+
+/* Main container */
+#main-box {
+   
+   min-height: 100vh;
+   margin: 0px 15px;
+   margin-bottom: 10px;
+   overflow: hidden; /* Ensures content stays within boundaries */
+}
+
+/* General layout and box styling */
+.main {
+   margin: 0;
+   padding: 0;
+   border: 2px solid black;
+   padding-bottom: 2px;
+   box-sizing: border-box; /* Ensures padding/border are included in element's total width/height */
+}
+
+/* Navigation box container */
+.nav-boxes {
+   display: flex;
+   flex-direction: column;
+   background-color: #fff7e6;
+   width: 200px;
+   float: left;
+   margin-right: 20px;
+   margin-left: 10px;
+   border: 2px solid #b999a1;
+   border-radius: 10px;
+   box-sizing: border-box; /* Makes sure border and padding don't increase width */
+}
+
+/* Individual nav boxes */
+.nav-box {
+   padding: 7px;
+   background: #b999a1;
+   text-decoration: none;
+   color: #333;
+   margin: 5px;
+   text-align: left;
+   font-weight: bold;
+}
+
+.nav-box:hover {
+   background: #ddd;
+}
+
+
+
+
+/* Responsive layout for screens wider than 1080px */
+@media screen and (min-width: 1080px) {
+   #main-box {
+      display: flex;
+      flex-direction: row;
+      justify-content:end; /* Aligns content to the left */
+      flex-wrap: wrap; /* Wraps content if necessary */
+      width: 100%;
+   }
+   
+   .nav-boxes {
+      position: relative;
+      width: 220px; /* You can adjust the width as needed */
+      flex-shrink: 0; /* Prevents the box from shrinking */
+      margin-right: 20px; /* Adds more space to the right */
+      margin-bottom: 5px;
+   }
+
+   .main {
+      flex-grow: 1; /* The main content will expand to fill available space */
+      
+   }
+
+
+}
+
+
+
+/* Responsive layout for screens wider than 900px */
+
+@media (min-width: 900px) {
+
+
+   .title-div {
+       flex-direction: row;
+       align-items: flex-start;
+       justify-content: space-between;
+       text-align: left;
+   }
+   
+   .title-content {
+       flex: 1;
+       max-width: 50%;
+   }
+
+   .content-title {
+      border-top: 2px dashed #ccc;
+      border-bottom: 2px dashed #ccc;
+
+   }
+   
+   .long-paragraph {
+       flex: 1;
+       margin-top: 0;
+       border: none;
+   }
+
+   .nav-boxes {
+      position: relative;
+      width: 220px; /* You can adjust the width as needed */
+      flex-shrink: 0; /* Prevents the box from shrinking */
+      margin-right: 20px; /* Adds more space to the right */
+      padding-bottom: 5px;
+   }
+
+   
+   
+}
+
+
+
+/* Responsive layout for screens wider than 600px and 899px */
+
+@media (min-width: 600px) and (max-width: 899px) {
+
+  .nav-boxes {
+   font-size: 14px;
+   font-weight: bold;
+   margin-top: 0px;
+   padding-top: 0px;
+  }
+
+   .logo {
+      display: none;
+   }
+
+
+   .title-div {
+       flex-direction: column;
+       align-items: center;
+   }
+
+
+   .title-content h2 {
+      margin-top: 3px;
+   }
+
+   .content-title {
+      border-top: 2px dashed #ccc;
+      border-bottom: 2px dashed #ccc;
+
+   }
+   
+   .long-paragraph {
+       margin: 0px;
+       margin-right: 5px;
+       margin-left: 8px;
+       border-top: 2px dashed #ccc;
+       padding: 0px;
+       text-align:left;
+   }
+
+
+   .long-paragraph p {
+      margin-bottom: 15px;
+      padding-top: 0px;
+      
+   }
+
+   .info-row {
+      display: flex;
+      justify-content: space-between;
+      max-width: 600px; /* Adjust width as necessary */
+      margin: 0px;
+   }
+   
+   .info-row p {
+      margin-left: 5px;
+      padding-right: 75px;
+   
+   }
+
+   .content-section {
+      margin-bottom: 5px;
+   }
+
+
+
+   .top-nav {
+         width: 100%; /* Ensure the nav takes full width */
+         background-color: black; /* Add a black background color */
+   }
+   
+   .top-nav ul {
+         display: flex; /* Use flex to arrange items in a row */
+         flex-direction: row; /* Align items in a row */
+         gap: 0; /* Remove gap between items */
+         padding: 0; /* Remove padding */
+         margin: 0; /* Remove margin */
+         list-style: none; /* Remove bullet points */
+   }
+   
+   .top-nav ul li {
+         flex: 1; /* Allow items to grow */
+         margin: 0; /* Remove default margin */
+         border: none; /* No border on li */
+         background-color: black; /* Set background to match nav */
+   }
+
+   .top-nav ul li a {
+         display: block; /* Make the anchor fill the li */
+         text-align: center; /* Center the text */
+         color: #fff; /* Set text color to white */
+         padding: 5px; /* Add padding for clickable area */
+         text-decoration: none; /* Remove underline */
+         border-bottom: none;
+   }
+
+
+   .header-box {
+      margin: 0px;
+      padding: 0px;
+      
+   }
+   
+
+   #main-box, .main {
+      margin: 0px;
+      gap: 0;
+      padding: 0px;
+      
+   }
+
+   .top-nav ul li a {
+      color: black; /* Set font color to black */
+   }
+
+     
+    
+}
+
+
+
+
+@media (max-width: 599px) {
+
+/* Resetting body and main for no extra margins */
+html, body, .main {
+   margin: 0;
+   padding: 0;
+}
+
+.top-nav {
+   width: 100%;
+   
+}
+
+
+
+.top-nav ul li a {
+   border: 0px;
+   padding: 0px;
+   background-color: #b999a1;
+   color: #852425;
+}
+
+/* Navigation: Hide all li except the first one */
+.top-nav ul {
+
+   flex-direction: column; /* Stack vertically */
+   gap: 0px;
+   margin: 0;
+   padding: 0;
+   list-style: none; /* Remove default bullet points */
+}
+
+.top-nav ul li:not(:first-child) {
+   display: none; /* Hide all list items except the first */
+}
+
+/* Show all list items on hover of the first */
+.top-nav ul li:first-child:hover ~ li, 
+.top-nav ul li:first-child:hover + li ~ li {
+   display: block; /* Show the dropdown items */
+   background-color: #b999a1; /* Ensure background matches */
+   padding: 1px;
+   border: 1px solid #852425; /* Consistent border */
+}
+
+
+   
+/* Ensure dropdown works for the first item */
+.top-nav ul li:first-child {
+   position: relative;
+   border: 2px solid #852425; /* Set border color to red */
+   background-color: #b999a1; /* Set background color */
+   padding: 0px; /* Padding for better click area */
+   width: 100%; /* Full width for the dropdown */
+   display: flex; /* Use flexbox to align items */
+   justify-content: space-between; /* Space between text and icon */
+   align-items: center; /* Center align vertically */
+   box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Add dropdown icon inline */
+.top-nav ul li:first-child:after {
+   content: ' ▼'; /* Dropdown icon */
+   color: #852425;
+   font-size: 12px; /* Adjust icon size */
+   margin-left: 5px; /* Space between text and icon */
+}
+
+ 
+
+/* Navigation box styling */
+.nav-box {
+   padding: 8px; /* Increased padding for mobile-friendly touch */
+   font-size: 14px; /* Larger text for readability */
+   text-align: left; /* Align text to the left */
+   background-color: #b999a1; /* Background color */
+   color: black; /* Text color for contrast */
+   border-bottom: 1px solid #fff; /* Light border for separation */
+   position: relative; /* Allow positioning for '>' */
+   display: flex; /* Use flexbox for alignment */
+   justify-content: space-between; /* Space between text and '>' */
+   align-items: center; /* Center align vertically */
+}
+
+
+
+/* Add '>' symbol to the right end of each nav-box */
+.nav-box:after {
+   content: '>'; /* Add '>' after each nav-box */
+   margin-left: 5px; /* Space between text and '>' */
+   font-weight: bold; /* Make the '>' more prominent */
+}
+
+
+/* Logo below navigation and full width */
+.logo {
+   order: 2;
+   margin: 0;
+   width: 100%; /* Full width */
+   text-align: center; /* Center align */
+}
+
+.logo img {
+   width: 100%; /* Logo adjusts to full width on mobile */
+   margin: 5px 0;
+}
+
+/* Header box styling */
+.header-box {
+   flex-direction: column;
+}
+
+   /* Footer full width and matching nav-boxes */
+.footer {
+   width: 100%; /* Full width footer */
+   padding: 10px;
+   font-size: 14px;
+   box-sizing: border-box;
+   margin: 0;
+}
+
+/* Nav-boxes full width with same margin as footer */
+.nav-boxes {
+   width: 100%; /* Full width */
+   margin: 0; /* Remove margins */
+   padding: 10px 0;
+   background-color: #fff7e6;
+   border: 3px solid #b999a1;
+   border-radius: 0; /* No rounding on small screens */
+   box-sizing: border-box;
+}
+
+  
+
+/* Hover effect for the nav-boxes */
+.nav-box:hover {
+   background-color: #a37884; /* Lighter background on hover */
+}
+
+/* Hide title on small screens */
+.title-div {
+   display: none;
+}
+
+/* Hide content-div on small screens */
+.content-div {
+   display: none;
+}
+
+/* Main box fix */
+#main-box {
+   margin: 0; /* Remove black margin issue */
+}
+
+
+}
